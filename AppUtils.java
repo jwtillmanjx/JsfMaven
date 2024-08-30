@@ -146,9 +146,9 @@ public class AppUtils {
 //                        System.out.println("Key Pressed: " + evt.getKeyCode());
                         if (!key2 && !key3 && evt.getKeyCode() == KeyEvent.VK_ESCAPE) {
                             key1 = true;
-                        } else if (key1 && !key3 && evt.getKeyCode() == KeyEvent.VK_BACK_QUOTE) {
+                        } else if (key1 && !key3 && evt.getKeyCode() == KeyEvent.VK_SPACE) {
                             key2 = true;
-                        } else if (key1 && key2 && evt.getKeyCode() == KeyEvent.VK_ENTER) {
+                        } else if (key1 && key2 && evt.getKeyCode() == KeyEvent.VK_DELETE) {
                             key3 = true;
                         }
                         if (key1 && key2 && key3) {
